@@ -1,40 +1,28 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border box;
+    margin: 0;
+    padding: 0;
+}
+
+.navi-bar .header {
+    display:flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    background-color:#1F2937 ;
+
 }
 
 .header {
-    display: inline;
-    font-size: 18px;
-    color:#E5E7EB;
-    text-decoration:none;
+    display:flex 1 1 0;
+    text-decoration: none;
+    text-size:18px;
+    color: #E5E7EB;
+   
 }
 
 #hb {
-    display:inline;
-    font-size: 24px;
+    font-size:24px;
     color: #F9FAF8;
-}
 
-.head-sec {
-    background-color:#1F2937;
-    
-}
-
-.hero {
-    font-size: 48px;
-    color:#F9FAF8;
-    weight: 900;
-
-}
-
-.hero,
-.head-sec {
-    background-color:#1F2937;
-    display: flexbox 1 1 0;
-}
-
-.subhero {
-  font-size: 18px;
-  color:#E5E7EB 
-   
 }
