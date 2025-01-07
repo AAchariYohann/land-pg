@@ -1,0 +1,40 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: inline;
+    font-size: 18px;
+    color:#E5E7EB;
+    text-decoration:none;
+}
+
+#hb {
+    display:inline;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.head-sec {
+    background-color:#1F2937;
+    
+}
+
+.hero {
+    font-size: 48px;
+    color:#F9FAF8;
+    weight: 900;
+
+}
+
+.hero,
+.head-sec {
+    background-color:#1F2937;
+    display: flexbox 1 1 0;
+}
+
+.subhero {
+  font-size: 18px;
+  color:#E5E7EB 
+   
+}
